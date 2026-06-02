@@ -22,3 +22,14 @@ int main()
 
     return 0;
 }
+void drawRectangle(int row, int col, int width, int height);
+int main()
+{
+    initializeCanvas();
+
+    drawRectangle(2, 5, 10, 4);
+
+    displayCanvas();
+
+    return 0;
+}
