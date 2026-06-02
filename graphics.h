@@ -1,0 +1,2 @@
+void initializeCanvas();
+void displayCanvas();
