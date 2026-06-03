@@ -46,3 +46,15 @@ void drawRectangle(int row, int col, int width, int height)
         }
     }
 }
+void drawLine(int row, int startCol, int endCol)
+{
+    int j;
+
+    for(j = startCol; j <= endCol; j++)
+    {
+        if(row < ROWS && j < COLS)
+        {
+            canvas[row][j] = '*';
+        }
+    }
+}

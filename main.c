@@ -33,3 +33,16 @@ int main()
 
     return 0;
 }
+void drawLine(int row, int startCol, int endCol);
+int main()
+{
+    initializeCanvas();
+
+    drawRectangle(2, 5, 10, 4);
+
+    drawLine(10, 5, 20);
+
+    displayCanvas();
+
+    return 0;
+}
