@@ -61,3 +61,20 @@ int main()
 
     return 0;
 }
+void drawCircle(int centerRow, int centerCol, int radius);
+int main()
+{
+    initializeCanvas();
+
+    drawRectangle(2, 5, 10, 4);
+
+    drawLine(10, 5, 20);
+
+    drawTriangle(12, 5, 6);
+
+    drawCircle(10, 30, 5);
+
+    displayCanvas();
+
+    return 0;
+}
