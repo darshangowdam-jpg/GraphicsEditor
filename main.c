@@ -78,3 +78,22 @@ int main()
 
     return 0;
 }
+void deleteArea(int row, int col, int width, int height);
+int main()
+{
+    initializeCanvas();
+
+    drawRectangle(2, 5, 10, 4);
+
+    drawLine(10, 5, 20);
+
+    drawTriangle(12, 5, 6);
+
+    drawCircle(10, 30, 5);
+
+    deleteArea(3, 7, 4, 2);
+
+    displayCanvas();
+
+    return 0;
+}
