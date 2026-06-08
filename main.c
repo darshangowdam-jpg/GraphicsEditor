@@ -97,3 +97,16 @@ int main()
 
     return 0;
 }
+int main()
+{
+    initializeCanvas();
+
+    drawRectangle(2, 5, 10, 4);
+
+    modifyRectangle(2, 5, 10, 4,
+                    10, 20, 8, 3);
+
+    displayCanvas();
+
+    return 0;
+}

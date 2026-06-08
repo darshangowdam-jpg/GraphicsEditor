@@ -106,3 +106,12 @@ void deleteArea(int row, int col, int width, int height)
         }
     }
 }
+void modifyRectangle(int oldRow, int oldCol,
+                     int oldWidth, int oldHeight,
+                     int newRow, int newCol,
+                     int newWidth, int newHeight)
+{
+    deleteArea(oldRow, oldCol, oldWidth, oldHeight);
+
+    drawRectangle(newRow, newCol, newWidth, newHeight);
+}
