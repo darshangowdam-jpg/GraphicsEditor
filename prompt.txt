@@ -1,0 +1,61 @@
+Prompt:
+How to create a GitHub repository?
+
+Response:
+Create a repository in GitHub Desktop, publish it, and push commits.
+
+--------------------------------
+
+Prompt:
+How to implement rectangle drawing?
+
+Response:
+Use a function drawRectangle() that fills the canvas with '*'.
+
+--------------------------------
+
+Prompt:
+How to implement line drawing?
+
+Response:
+Use a function drawLine() to draw horizontal or vertical lines.
+
+--------------------------------
+
+Prompt:
+How to implement triangle drawing?
+
+Response:
+Use loops to draw a triangle with '*'.
+
+--------------------------------
+
+Prompt:
+How to implement circle drawing?
+
+Response:
+Use the circle equation to plot points.
+
+--------------------------------
+
+Prompt:
+How to implement delete object?
+
+Response:
+Replace selected '*' characters with '_'.
+
+--------------------------------
+
+Prompt:
+How to implement modify object?
+
+Response:
+Delete the old object and redraw it at a new position.
+
+--------------------------------
+
+Prompt:
+How to create README.md?
+
+Response:
+Add project description, features, and compilation steps.
